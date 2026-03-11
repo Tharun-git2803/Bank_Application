@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="SBI Bank", page_icon="🏦", layout="wide")
+st.set_page_config(page_title=" Bank of Spain", page_icon="🏦", layout="wide")
 
 class BankApplication:
     bank_name = "SBI"
@@ -138,3 +138,4 @@ if st.session_state.account:
 else:
 
     st.info("👈 Create an account from the sidebar to start banking.")
+
